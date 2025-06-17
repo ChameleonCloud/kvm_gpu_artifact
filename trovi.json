@@ -1,0 +1,49 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "actionApplication": [
+                {
+                    "@id": "#ChameleonJupyterLab"
+                }
+            ],
+            "author": [
+                {
+                    "@id": "#author_0"
+                }
+            ],
+            "datePublished": "2025-06-17T17:22:20+00:00",
+            "description": "Trovi artifact demonstrating how to set up a GPU instance on KVM@TACC. Additionally, you can optionally setup a persistent volume.",
+            "disambiguatingDescription": "Trovi artifact demonstrating how to set up a GPU instance on KVM@TACC",
+            "keywords": "example",
+            "name": "Mark's Trovi Artifact"
+        },
+        {
+            "@id": "trovi.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#author_0",
+            "@type": "Person",
+            "affiliation": "University of Chicago",
+            "email": "markpowers@uchicago.edu",
+            "name": "Mark Powers"
+        },
+        {
+            "@id": "#ChameleonJupyterLab",
+            "@type": "SoftwareApplication",
+            "name": "Chameleon JupyterLab",
+            "trovi_arguments": "{}",
+            "trovi_type": "jupyterhub",
+            "url": "https://jupyter.chameleoncloud.org/"
+        }
+    ]
+}
