@@ -18,7 +18,7 @@
             "description": "Trovi artifact demonstrating how to set up a GPU instance on KVM@TACC. Additionally, you can optionally setup a persistent volume.",
             "disambiguatingDescription": "Trovi artifact demonstrating how to set up a GPU instance on KVM@TACC",
             "keywords": "example",
-            "name": "Mark's Trovi Artifact"
+            "name": "Using a GPU on KVM@TACC"
         },
         {
             "@id": "trovi.json",
